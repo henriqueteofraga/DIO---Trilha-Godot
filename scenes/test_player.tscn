@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwhwr7sdxv03i"]
+
+[ext_resource type="Texture2D" uid="uid://bfbshuw5j32ju" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png" id="1_efiy3"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_6psxd"]
+line_spacing = 42.0
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(505, -1244)
+
+[node name="WarriorPurple" type="Sprite2D" parent="."]
+position = Vector2(141, 260)
+texture = ExtResource("1_efiy3")
+
+[node name="Subtitle" type="Label" parent="WarriorPurple"]
+offset_left = 558.0
+offset_top = -701.0
+offset_right = 667.0
+offset_bottom = -167.0
+scale = Vector2(2.74622, 2.9508)
+text = "Idle
+Run
+Attack_side1
+Attack_side2
+Attack_down1
+Attack_down2
+Attack_up1
+Attack_up2"
+label_settings = SubResource("LabelSettings_6psxd")
+
+[node name="Coord X" type="Label" parent="WarriorPurple"]
+offset_left = -504.0
+offset_top = -832.0
+offset_right = -137.0
+offset_bottom = -809.0
+scale = Vector2(2.74622, 2.9508)
+text = "0               1                2             3                4               5"
+label_settings = SubResource("LabelSettings_6psxd")
+
+[node name="Subtitle2" type="Label" parent="WarriorPurple"]
+offset_left = -589.0
+offset_top = -708.0
+offset_right = -576.0
+offset_bottom = -174.0
+scale = Vector2(2.74622, 2.9508)
+text = "01234567"
+label_settings = SubResource("LabelSettings_6psxd")
+autowrap_mode = 3
